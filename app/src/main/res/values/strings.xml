@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MTBI Assist</string>
+    <string-array name="MenuArray">
+        <item>Enter Symptoms</item>
+        <item>Track Symptoms</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="EnterSymptomsArray">
+        <item>Physical</item>
+        <item>Cognitive</item>
+        <item>Emotional</item>
+        <item>Sleep</item>
+    </string-array>
+    <string-array name="TrackSymptomsArray">
+        <item>Chart</item>
+        <item>Table</item>
+        <item>Email Symptoms</item>
+    </string-array>
+    <string-array name="SettingsArray">
+        <item>Daily Alerts: off</item>
+        <item>About</item>
+    </string-array>
+    <string name="title_activity_main">MTBI Assist</string>
+    <string name="app_description">
+        \nMTBI Assist is a mobile application to help manage the symptoms of MTBI or Mild Traumatic Brain Injury (also known as concussion).  To begin, touch or slide
+        Menu in the upper left corner of the screen.\n\nI developed this application to help concussion sufferers after experiecing a concussion of my own.  MTBI Assist
+        is based in part on the Acute Concussion Evaluation checklist established by the Centers for Disease control (http://www.cdc.gov/headsup/pdfs/providers/ace-
+        a.pdf).  I found the CDC resources to be extremely beneficial and thought that a mobile application using their rubric could greatly help patients track and
+        manage their symptoms following a concussion, MTBI or during Post Concussive Syndrom.\n\nMTBI in no way provides diagnostic support, treatment recommendations and
+        provides no warranties or garauntees.  MTBI Assist\'s sole purpose is to allow injry sufferers to track and monitor their symptoms and/or to use this information
+        along with a physician to identify the best treatment options.  MTBI Assist is available free of charge under the Apache license.  MTBI Assist leverages the
+        hellocharts-android framework for its charting capabilities (https://github.com/lecho/hellocharts-android).\n\n<b>Enter Symptoms:</b> To enter your symptoms, first select a date for the symptoms.  Then select
+        your symptoms for this date under each of the headings: Physical, Cognitive, Emotional and Sleep.\n\n<b>Track Symptoms:</b> You can track your symptoms using
+        either a Chart or Table format.\n\n<b>Daily Alerts:</b> You set daily alerts, or reminders, to ensure you enter your symptoms in daily.\n\n<b>Email Symptoms:</b>
+        You can email your symptoms to yourself or a healthcare provider using an email account already setup on your device.\n\n<b>Top Navigation:</b> You can access
+        most parts of the application using the icons at the top of the application.
+    </string>
+</resources>

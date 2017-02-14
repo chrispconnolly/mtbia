@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chrisconnolly.concussionapp.MainActivity">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="Edit Symptoms"
+        android:orderInCategory="1"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_chart"
+        android:icon="@drawable/ic_action_picture"
+        android:title="Chart"
+        android:orderInCategory="2"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_table"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="Table"
+        android:orderInCategory="3"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_action_email"
+        android:title="Email Symptoms"
+        android:orderInCategory="4"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="Settings"
+        android:orderInCategory="5"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_about"
+        android:icon="@mipmap/icon"
+        android:title="About"
+        android:orderInCategory="6"
+        android:onClick="actionBarClick"
+        app:showAsAction="always"/>
+
+</menu>
